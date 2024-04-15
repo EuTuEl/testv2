@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Add car</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="add-car-script.js" defer></script>
+        <link href="assets/global.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="nav">
+            <a href="index.html"><h1>Home</h1></a>
+            <div>
+                <a href="add-car.html"><h2>Add car</h2></a>
+                <a href="add-car.html"><h2>Add car</h2></a>
+            </div>
+        </div>
+        <div id="app">
+            <form id="add-car-form" action="" method="post">
+                <h2>Add car</h2>
+                <label for="brand">Brand:</label>
+                <input class="form-input" type="text" id="brand" name="brand" value="">
+
+                <label for="model">Model:</label>
+                <input class="form-input" type="text" id="model" name="model" value="">
+
+                <label for="year">Year:</label>
+                <input class="form-input" type="number" id="year" name="year" value="">
+
+                <label for="price">Price:</label>
+                <input class="form-input" type="number" id="price" name="price" value="">
+
+                <label for="engine">Engine:</label>
+                <input class="form-input" type="number" id="engine" name="engine" value="">
+
+                <label for="fuel">Fuel:</label>
+                <input class="form-input" type="text" id="fuel" name="fuel" value="">
+
+                <label for="power">Power:</label>
+                <input class="form-input" type="number" id="power" name="power" value="">
+
+                <label for="image">Image:</label>
+                <input class="form-input" type="text" id="image" name="image" value="">
+
+                <label for="description">Description:</label>
+                <textarea class="form-input" id="description" name="description"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
